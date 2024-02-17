@@ -174,6 +174,7 @@ for (var i = 0; i < dental.length; i++) {
 }
 document.getElementById("tabla-3").innerHTML = textoDental;
 // document.write('<p>Primera atención en Dental: ' + dental[0].paciente + ' - ' + dental[0].prevision + ' | Última atención: ' + dental[dental.length - 1].paciente + ' - ' + dental[dental.length - 1].prevision + '</p>');
+document.write(`<p>Estadísticas Centro Médico Ñuñoa</p>`)
 document.write(`<p>Primera atención: ${radiologia[0].paciente} - ${radiologia[0].prevision} | Ültima atención: ${radiologia[radiologia.length-1].paciente} - ${radiologia[radiologia.length-1].prevision}</p>`)
 document.write(`<p>Primera atención: ${traumatologia[0].paciente} - ${traumatologia[0].prevision} | Ültima atención: ${traumatologia[traumatologia.length-1].paciente} - ${traumatologia[traumatologia.length-1].prevision}</p>`)
 document.write(`<p>Primera atención: ${dental[0].paciente} - ${dental[0].prevision} | Ültima atención: ${dental[dental.length-1].paciente} - ${dental[dental.length-1].prevision}</p>`)
